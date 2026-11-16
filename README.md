@@ -25,3 +25,4 @@ npm run preview
 This is a static site; it needs no always-on server or database. A GitHub Actions workflow builds and publishes the site when changes are pushed to `main` or `master`. For a repository site, the Vite configuration derives the `/repository-name/` base path from GitHub Actions. For a user or organization site (`*.github.io`), it uses `/`.
 
 After creating a GitHub repository, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**, then push the chosen default branch. No repository or deployment has been created by this setup.
+# Truth
